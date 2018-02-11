@@ -1,0 +1,982 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:2:1-154:12
+INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:2:1-154:12
+INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:2:1-154:12
+INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:2:1-154:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/40fcecd77d9d763e56b3d0876c9b9534/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/476682eb974fd58ec566a8a4338c6378/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/89a2b3ee40d84434d0ea5cc771c53927/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/9897a8dcd188ea7de1220a3183888fc4/AndroidManifest.xml:21:1-36:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b4d89e09627c0e4c57ea05a893db750b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/293e0db3ca34eb43002fcac1990df90a/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/379db4023d4e9d273ce175aee0838a4c/AndroidManifest.xml:16:1-25:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/monty/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/55c6c0908c9db4b470b0948a56610048/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/c009f174e4705388292cb25f39904605/AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.6.0.aar/941e0fbc33d4c4abf358863eb22fe1ea/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.6.0.aar/273a0c1b4758d014faa0ab5cf3fdc8d8/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/44e8342eb930c784899fc725010d800e/AndroidManifest.xml:16:1-21:12
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/00b5e89836bb6de326b9c4bd8387a410/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:customtabs:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/c43e3537420a76ba86d67aaf977d7d1c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-core:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.0.aar/c2e20226a6cf574672fdc26bdf30e9fe/AndroidManifest.xml:2:1-6:12
+MERGED from [com.facebook.android:facebook-places:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/3acc76a7c2cfc9338a517299be389a02/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/22d8437737ec1d274be3236b7b9fe5e3/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/78376e032c7b6d37a2319250517baebc/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/d46175a4152e6191bf7e47759a4fd8b5/AndroidManifest.xml:21:1-45:12
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/554de06b29a410e6e1ebcbf8ddd39ea1/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:16:1-47:12
+MERGED from [com.google.firebase:firebase-common:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/e19f5171b39f2f39b197f6900103077e/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/1dfeb8a973cbd664ec44bffd869e5b12/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/a6361dc7b9847b39d2a42feb710958fd/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/08ec11c9e650e25a9cd701d79f0266a5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/8eb399c4a96c72837e2f7a079c6e05c9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f96beb2c5778542f06f110ee476c109f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f76ef626e4108fda04123644c7aa8b58/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e532ee25b0d31815e6584892f4063e3d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ba5e364ecbb403250b9372116519b829/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0478c487c3c09d59329cb2248b6dd084/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/eb1816357bf0a64712ca1e984b3e6152/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/2de7945aaf7318965625600260f67038/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.6.0.aar/74650a8206ba4f8d962bbfe55333b180/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/e7146477efe78fa0c742292b26e16b4d/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/29321158d84a152bdc2b8b4bcb504617/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/bba0e465a8cd5180b4cc06b56340d3a9/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/0cd491268096f52e1b291dbb7858181f/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.0.aar/6ed45207957cf1c612b5f35a97560bbc/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.0.aar/3023c59049135bf80f42f7793432f466/AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/monty/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a880e1c53f6bcd8cc672bc0475cb482e/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/63d93ec86538b28e602b06e5f659f91e/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/8ab54094add65726c8587dc9294db716/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/463810ff3ff8964b4b3ae84da52d19e2/AndroidManifest.xml:2:1-6:12
+INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:2:1-154:12
+INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:2:1-154:12
+INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:2:1-154:12
+	package
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml
+		INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:2:1-154:12
+		INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:2:1-154:12
+		INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:6:5-75
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:6:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.INTERNET
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/379db4023d4e9d273ce175aee0838a4c/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/379db4023d4e9d273ce175aee0838a4c/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/554de06b29a410e6e1ebcbf8ddd39ea1/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/554de06b29a410e6e1ebcbf8ddd39ea1/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:11:5-72
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:11:22-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:12:22-62
+uses-feature#android.hardware.camera
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:14:5-60
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:14:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:15:5-70
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:15:19-67
+application
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:17:5-152:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/40fcecd77d9d763e56b3d0876c9b9534/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/40fcecd77d9d763e56b3d0876c9b9534/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/476682eb974fd58ec566a8a4338c6378/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/476682eb974fd58ec566a8a4338c6378/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/89a2b3ee40d84434d0ea5cc771c53927/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/89a2b3ee40d84434d0ea5cc771c53927/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/9897a8dcd188ea7de1220a3183888fc4/AndroidManifest.xml:28:5-34:19
+MERGED from [com.facebook.android:facebook-common:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/9897a8dcd188ea7de1220a3183888fc4/AndroidManifest.xml:28:5-34:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b4d89e09627c0e4c57ea05a893db750b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b4d89e09627c0e4c57ea05a893db750b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/293e0db3ca34eb43002fcac1990df90a/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/293e0db3ca34eb43002fcac1990df90a/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/379db4023d4e9d273ce175aee0838a4c/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/379db4023d4e9d273ce175aee0838a4c/AndroidManifest.xml:24:5-19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/monty/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/55c6c0908c9db4b470b0948a56610048/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/monty/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/55c6c0908c9db4b470b0948a56610048/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/c009f174e4705388292cb25f39904605/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/c009f174e4705388292cb25f39904605/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/44e8342eb930c784899fc725010d800e/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/44e8342eb930c784899fc725010d800e/AndroidManifest.xml:18:5-20:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/00b5e89836bb6de326b9c4bd8387a410/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/00b5e89836bb6de326b9c4bd8387a410/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/c43e3537420a76ba86d67aaf977d7d1c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/c43e3537420a76ba86d67aaf977d7d1c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-core:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.0.aar/c2e20226a6cf574672fdc26bdf30e9fe/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.0.aar/c2e20226a6cf574672fdc26bdf30e9fe/AndroidManifest.xml:5:5-20
+MERGED from [com.facebook.android:facebook-places:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/3acc76a7c2cfc9338a517299be389a02/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/3acc76a7c2cfc9338a517299be389a02/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/22d8437737ec1d274be3236b7b9fe5e3/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/22d8437737ec1d274be3236b7b9fe5e3/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/78376e032c7b6d37a2319250517baebc/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/78376e032c7b6d37a2319250517baebc/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/d46175a4152e6191bf7e47759a4fd8b5/AndroidManifest.xml:28:5-43:19
+MERGED from [com.facebook.android:facebook-core:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/d46175a4152e6191bf7e47759a4fd8b5/AndroidManifest.xml:28:5-43:19
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/554de06b29a410e6e1ebcbf8ddd39ea1/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/554de06b29a410e6e1ebcbf8ddd39ea1/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:29:5-46:19
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:29:5-46:19
+MERGED from [com.google.firebase:firebase-common:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/e19f5171b39f2f39b197f6900103077e/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/e19f5171b39f2f39b197f6900103077e/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/1dfeb8a973cbd664ec44bffd869e5b12/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/1dfeb8a973cbd664ec44bffd869e5b12/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/a6361dc7b9847b39d2a42feb710958fd/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/a6361dc7b9847b39d2a42feb710958fd/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/08ec11c9e650e25a9cd701d79f0266a5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/08ec11c9e650e25a9cd701d79f0266a5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/8eb399c4a96c72837e2f7a079c6e05c9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/8eb399c4a96c72837e2f7a079c6e05c9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f96beb2c5778542f06f110ee476c109f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f96beb2c5778542f06f110ee476c109f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f76ef626e4108fda04123644c7aa8b58/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f76ef626e4108fda04123644c7aa8b58/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e532ee25b0d31815e6584892f4063e3d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e532ee25b0d31815e6584892f4063e3d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ba5e364ecbb403250b9372116519b829/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ba5e364ecbb403250b9372116519b829/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0478c487c3c09d59329cb2248b6dd084/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0478c487c3c09d59329cb2248b6dd084/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/eb1816357bf0a64712ca1e984b3e6152/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/eb1816357bf0a64712ca1e984b3e6152/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/2de7945aaf7318965625600260f67038/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/2de7945aaf7318965625600260f67038/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.6.0.aar/74650a8206ba4f8d962bbfe55333b180/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.6.0.aar/74650a8206ba4f8d962bbfe55333b180/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/e7146477efe78fa0c742292b26e16b4d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/e7146477efe78fa0c742292b26e16b4d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/29321158d84a152bdc2b8b4bcb504617/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/29321158d84a152bdc2b8b4bcb504617/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/bba0e465a8cd5180b4cc06b56340d3a9/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/bba0e465a8cd5180b4cc06b56340d3a9/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/0cd491268096f52e1b291dbb7858181f/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/0cd491268096f52e1b291dbb7858181f/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.0.aar/6ed45207957cf1c612b5f35a97560bbc/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.0.aar/6ed45207957cf1c612b5f35a97560bbc/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.0.aar/3023c59049135bf80f42f7793432f466/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.0.aar/3023c59049135bf80f42f7793432f466/AndroidManifest.xml:5:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/monty/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a880e1c53f6bcd8cc672bc0475cb482e/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/monty/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a880e1c53f6bcd8cc672bc0475cb482e/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/63d93ec86538b28e602b06e5f659f91e/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/63d93ec86538b28e602b06e5f659f91e/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/8ab54094add65726c8587dc9294db716/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/8ab54094add65726c8587dc9294db716/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/463810ff3ff8964b4b3ae84da52d19e2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/463810ff3ff8964b4b3ae84da52d19e2/AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from [com.facebook.android:facebook-android-sdk:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/40fcecd77d9d763e56b3d0876c9b9534/AndroidManifest.xml:28:18-44
+	android:label
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:20:9-41
+	android:icon
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:19:9-38
+	android:theme
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:21:9-40
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:18:9-67
+service#com.pablomonteserin.notifications.notificaciones_desde_servicio_modifican_activity.NotificacionesServicio
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:22:9-141
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:22:18-138
+service#com.pablomonteserin.notifications.ejercicio_yoga.CountDownTimerService
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:23:9-106
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:23:18-103
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:25:9-27:55
+	android:value
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:27:13-52
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:26:13-58
+activity#com.pablomonteserin.Main
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:29:9-37:20
+	android:label
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:30:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:35:27-74
+activity#com.pablomonteserin.layouts.A_HelloWorldActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:38:9-85
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:38:19-82
+activity#com.pablomonteserin.layouts.B_HelloWorldEjercicioActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:39:9-94
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:39:19-91
+activity#com.pablomonteserin.layouts.C_AllLayoutsActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:40:9-85
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:40:19-82
+activity#com.pablomonteserin.layouts.AllLayoutsPackage.Frame
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:41:9-88
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:41:19-85
+activity#com.pablomonteserin.layouts.AllLayoutsPackage.GridL
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:42:9-88
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:42:19-85
+activity#com.pablomonteserin.layouts.AllLayoutsPackage.Linear
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:43:9-89
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:43:19-86
+activity#com.pablomonteserin.layouts.AllLayoutsPackage.Relative
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:44:9-91
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:44:19-88
+activity#com.pablomonteserin.layouts.AllLayoutsPackage.TableL
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:45:9-89
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:45:19-86
+activity#com.pablomonteserin.layouts.E_ContenidoScrollable
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:46:9-86
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:46:19-83
+activity#com.pablomonteserin.layouts.D_EjercicioLinearLayout
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:47:9-88
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:47:19-85
+activity#com.pablomonteserin.layouts.F_CargaImagenActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:48:9-86
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:48:19-83
+activity#com.pablomonteserin.Styles
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:49:9-63
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:49:19-60
+activity#com.pablomonteserin.styles.CambiaBackground
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:50:9-80
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:50:19-77
+activity#com.pablomonteserin.styles.Degradado
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:51:9-73
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:51:19-70
+activity#com.pablomonteserin.styles.MaquetarBoton
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:52:9-77
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:52:19-74
+activity#com.pablomonteserin.styles.Color
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:53:9-69
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:53:19-66
+activity#com.pablomonteserin.styles.BackgroundNoRepeat
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:54:9-82
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:54:19-79
+activity#com.pablomonteserin.styles.BackgroundRepeat
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:55:9-80
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:55:19-77
+activity#com.pablomonteserin.styles.Estilos
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:56:9-71
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:56:19-68
+activity#com.pablomonteserin.styles.Themes
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:57:9-59:65
+	android:theme
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:59:13-62
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:58:13-61
+activity#com.pablomonteserin.draws.circulo.Main
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:60:9-75
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:60:19-72
+activity#com.pablomonteserin.Draw
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:61:9-61
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:61:19-58
+activity#com.pablomonteserin.layouts.I_Menu
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:62:9-71
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:62:19-68
+activity#com.pablomonteserin.Animatium
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:63:9-66
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:63:19-63
+activity#com.pablomonteserin.animatium.Transition
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:64:9-77
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:64:19-74
+activity#com.pablomonteserin.animatium.TweenM
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:65:9-73
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:65:19-70
+activity#com.pablomonteserin.animatium.AnimationSet
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:66:9-79
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:66:19-76
+activity#com.pablomonteserin.animatium.FrameByFrame
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:67:9-79
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:67:19-76
+activity#com.pablomonteserin.listview.A_ExtendiendoListActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:68:9-91
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:68:19-88
+activity#com.pablomonteserin.Listados
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:69:9-65
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:69:19-62
+activity#com.pablomonteserin.animatium.Interpolacion
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:70:9-80
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:70:19-77
+activity#com.pablomonteserin.listview.B_SinExtenderListActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:71:9-91
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:71:19-88
+activity#com.pablomonteserin.listview.ConLayoutPersonalizado
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:72:9-88
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:72:19-85
+activity#com.pablomonteserin.listview.ConBaseAdapter
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:73:9-80
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:73:19-77
+activity#com.pablomonteserin.listview.Optimizacion1
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:74:9-79
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:74:19-76
+activity#com.pablomonteserin.listview.Optimizacion2
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:75:9-79
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:75:19-76
+activity#com.pablomonteserin.almacenamiento.preferencias.Preferencias
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:76:9-97
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:76:19-94
+activity#com.pablomonteserin.Almacenamiento
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:77:9-71
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:77:19-68
+activity#com.pablomonteserin.almacenamiento.preferencias.PreferencesActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:78:9-104
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:78:19-101
+activity#com.pablomonteserin.almacenamiento.preferencias.VerResultados
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:79:9-98
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:79:19-95
+activity#com.pablomonteserin.almacenamiento.Sqlite
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:80:9-78
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:80:19-75
+activity#com.pablomonteserin.almacenamiento.Ejercicio
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:81:9-81
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:81:19-78
+activity#com.pablomonteserin.Layouts
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:82:9-64
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:82:19-61
+activity#com.pablomonteserin.Multimedia
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:83:9-67
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:83:19-64
+activity#com.pablomonteserin.multimedia.Audio
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:84:9-73
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:84:19-70
+activity#com.pablomonteserin.multimedia.Camera
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:85:9-74
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:85:19-71
+activity#com.pablomonteserin.multimedia.Streaming
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:86:9-77
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:86:19-74
+activity#com.pablomonteserin.multimedia.Video
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:87:9-73
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:87:19-70
+activity#com.pablomonteserin.dialogs.AlertDialogEjemplo
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:88:9-83
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:88:19-80
+activity#com.pablomonteserin.draws.path.PathActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:89:9-80
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:89:19-77
+activity#com.pablomonteserin.draws.path2.PathIIActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:90:9-83
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:90:19-80
+activity#com.pablomonteserin.draws.rect.PaintRectActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:91:9-85
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:91:19-82
+activity#com.pablomonteserin.draws.rect_filled.PaintFilledRect
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:92:9-90
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:92:19-87
+activity#com.pablomonteserin.draws.repaint.Repaint
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:93:9-78
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:93:19-75
+activity#com.pablomonteserin.dialogs.ProgressBarDialog
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:94:9-82
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:94:19-79
+activity#com.pablomonteserin.Dialog
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:95:9-63
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:95:19-60
+activity#com.pablomonteserin.almacenamiento.plantas.basico.InfoActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:96:9-99
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:96:19-96
+activity#com.pablomonteserin.almacenamiento.plantas.basico.MisPlantasActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:97:9-105
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:97:19-102
+activity#com.pablomonteserin.almacenamiento.plantas.con_shared_preferences.InfoActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:98:9-115
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:98:19-112
+activity#com.pablomonteserin.almacenamiento.plantas.con_shared_preferences.MisPlantasActivity2
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:99:9-122
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:99:19-119
+activity#com.pablomonteserin.almacenamiento.plantas.con_alarma.InfoActivity3
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:100:9-104
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:100:19-101
+activity#com.pablomonteserin.almacenamiento.plantas.con_alarma.MisPlantasActivity3
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:101:9-110
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:101:19-107
+receiver#com.pablomonteserin.almacenamiento.plantas.con_alarma.AlarmaReceiver
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:103:9-105
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:103:19-102
+activity#com.pablomonteserin.Maps
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:105:9-61
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:105:19-58
+activity#com.pablomonteserin.mapas.LocationManagerActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:106:9-86
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:106:19-83
+activity#com.pablomonteserin.mapas.LocationManagerConInterfaceSoloFuncionaConCambioDePosicion
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:107:9-121
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:107:19-118
+activity#com.pablomonteserin.mapas.conFragmento.Main
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:108:9-80
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:108:19-77
+activity#com.pablomonteserin.mapas.Monumentos.Main
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:109:9-78
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:109:19-75
+activity#com.pablomonteserin.mapas.Monumentos.LugarActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:110:9-87
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:110:19-84
+activity#com.pablomonteserin.notifications.Notificaciones
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:111:9-85
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:111:19-82
+activity#com.pablomonteserin.notifications.notificaciones_abriendo_activity.NotificacionesAbriendoUnActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:112:9-136
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:112:19-133
+activity#com.pablomonteserin.notifications.notificaciones_desde_servicio_modifican_activity.NotificacionesActivityAbierto2
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:113:9-150
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:113:19-147
+meta-data#com.google.android.gms.version
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:115:9-117:69
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/a6361dc7b9847b39d2a42feb710958fd/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/a6361dc7b9847b39d2a42feb710958fd/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:117:13-66
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:116:13-58
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:118:9-120:71
+	android:value
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:120:13-68
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:119:13-58
+meta-data#com.google.android.geo.AIzaSyBKJ43pjK3x1GQjnO0zaYUwDJHdy5LiooU
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:121:9-123:71
+	android:value
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:123:13-68
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:122:13-90
+activity#com.pablomonteserin.dialogs.PersonalDialog
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:125:9-79
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:125:19-76
+activity#com.pablomonteserin.dialogs.HacerToast
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:126:9-75
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:126:19-72
+activity#com.pablomonteserin.notifications.notificaciones_abriendo_activity.NotificacionesActivityAbierto
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:127:9-133
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:127:19-130
+activity#com.pablomonteserin.draws.circulo_con_atributos.Main
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:128:9-89
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:128:19-86
+activity#com.pablomonteserin.draws.juego_monstruito.MainActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:129:9-92
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:129:19-89
+activity#com.pablomonteserin.jobScheduler.MyJobScheduler
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:130:9-84
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:130:19-81
+activity#com.pablomonteserin.listview.Contactos
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:131:9-75
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:131:19-72
+activity#com.pablomonteserin.Notificaciones
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:132:9-71
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:132:19-68
+activity#com.pablomonteserin.XML_JSON_y_AsyncTask.AsynTaskPorGET
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:133:9-92
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:133:19-89
+activity#com.pablomonteserin.XMLJSON
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:134:9-64
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:134:19-61
+activity#com.pablomonteserin.Login
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:135:9-62
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:135:19-59
+activity#com.pablomonteserin.login.google.SecondActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:136:9-84
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:136:19-81
+activity#com.pablomonteserin.XML_JSON_y_AsyncTask.LeerFicheroXML
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:137:9-92
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:137:19-89
+activity#com.pablomonteserin.XML_JSON_y_AsyncTask.xml.MainParsearXML
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:138:9-96
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:138:19-93
+activity#com.pablomonteserin.XML_JSON_y_AsyncTask.json.MainParsearJSON
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:139:9-98
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:139:19-95
+activity#com.pablomonteserin.login.google.LoginActivityGoogle
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:140:9-89
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:140:19-86
+activity#com.pablomonteserin.login.facebook.LoginActivityFacebook
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:141:9-93
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:141:19-90
+activity#com.pablomonteserin.login.facebook.SecondActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:142:9-86
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:142:19-83
+activity#com.pablomonteserin.notifications.ejercicio_yoga.MainActivityYoga
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:143:9-102
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:143:19-99
+activity#com.pablomonteserin.XML_JSON_y_AsyncTask.retrofit.subirimagen.SubirImagen
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:144:9-110
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:144:19-107
+activity#com.pablomonteserin.XML_JSON_y_AsyncTask.AsyncTaskPorPost
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:145:9-94
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:145:19-91
+activity#com.pablomonteserin.layouts.fragments.RecipienteFragment
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:146:9-93
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:146:19-90
+activity#com.pablomonteserin.layouts.tabs.TabsActivity
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:147:9-82
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:147:19-79
+activity#com.pablomonteserin.layouts.navigationDrawer.MyNavigationDrawer
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:148:9-150:72
+	android:label
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:150:13-69
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:149:13-91
+activity#com.pablomonteserin.XML_JSON_y_AsyncTask.retrofit.peticionPost.PostRequest
+ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:151:9-120
+	android:name
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml:151:19-108
+uses-sdk
+INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml
+INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/40fcecd77d9d763e56b3d0876c9b9534/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.28.0.aar/40fcecd77d9d763e56b3d0876c9b9534/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/476682eb974fd58ec566a8a4338c6378/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-login-4.28.0.aar/476682eb974fd58ec566a8a4338c6378/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/89a2b3ee40d84434d0ea5cc771c53927/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-share-4.28.0.aar/89a2b3ee40d84434d0ea5cc771c53927/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/9897a8dcd188ea7de1220a3183888fc4/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/9897a8dcd188ea7de1220a3183888fc4/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b4d89e09627c0e4c57ea05a893db750b/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b4d89e09627c0e4c57ea05a893db750b/AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/293e0db3ca34eb43002fcac1990df90a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/293e0db3ca34eb43002fcac1990df90a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/379db4023d4e9d273ce175aee0838a4c/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/379db4023d4e9d273ce175aee0838a4c/AndroidManifest.xml:23:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/monty/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/55c6c0908c9db4b470b0948a56610048/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/monty/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/55c6c0908c9db4b470b0948a56610048/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/c009f174e4705388292cb25f39904605/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/c009f174e4705388292cb25f39904605/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.6.0.aar/941e0fbc33d4c4abf358863eb22fe1ea/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.6.0.aar/941e0fbc33d4c4abf358863eb22fe1ea/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-base:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.6.0.aar/273a0c1b4758d014faa0ab5cf3fdc8d8/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.6.0.aar/273a0c1b4758d014faa0ab5cf3fdc8d8/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/44e8342eb930c784899fc725010d800e/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/44e8342eb930c784899fc725010d800e/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/00b5e89836bb6de326b9c4bd8387a410/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/00b5e89836bb6de326b9c4bd8387a410/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/c43e3537420a76ba86d67aaf977d7d1c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/c43e3537420a76ba86d67aaf977d7d1c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.0.aar/c2e20226a6cf574672fdc26bdf30e9fe/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-core-11.6.0.aar/c2e20226a6cf574672fdc26bdf30e9fe/AndroidManifest.xml:4:5-43
+MERGED from [com.facebook.android:facebook-places:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/3acc76a7c2cfc9338a517299be389a02/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-places-4.28.0.aar/3acc76a7c2cfc9338a517299be389a02/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/22d8437737ec1d274be3236b7b9fe5e3/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.28.0.aar/22d8437737ec1d274be3236b7b9fe5e3/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/78376e032c7b6d37a2319250517baebc/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.28.0.aar/78376e032c7b6d37a2319250517baebc/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/d46175a4152e6191bf7e47759a4fd8b5/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/d46175a4152e6191bf7e47759a4fd8b5/AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/554de06b29a410e6e1ebcbf8ddd39ea1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/554de06b29a410e6e1ebcbf8ddd39ea1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/e19f5171b39f2f39b197f6900103077e/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/e19f5171b39f2f39b197f6900103077e/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/1dfeb8a973cbd664ec44bffd869e5b12/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/1dfeb8a973cbd664ec44bffd869e5b12/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/a6361dc7b9847b39d2a42feb710958fd/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/a6361dc7b9847b39d2a42feb710958fd/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/08ec11c9e650e25a9cd701d79f0266a5/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/08ec11c9e650e25a9cd701d79f0266a5/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/8eb399c4a96c72837e2f7a079c6e05c9/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/8eb399c4a96c72837e2f7a079c6e05c9/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f96beb2c5778542f06f110ee476c109f/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f96beb2c5778542f06f110ee476c109f/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f76ef626e4108fda04123644c7aa8b58/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f76ef626e4108fda04123644c7aa8b58/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e532ee25b0d31815e6584892f4063e3d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e532ee25b0d31815e6584892f4063e3d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ba5e364ecbb403250b9372116519b829/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ba5e364ecbb403250b9372116519b829/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0478c487c3c09d59329cb2248b6dd084/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0478c487c3c09d59329cb2248b6dd084/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/eb1816357bf0a64712ca1e984b3e6152/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/eb1816357bf0a64712ca1e984b3e6152/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/2de7945aaf7318965625600260f67038/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/2de7945aaf7318965625600260f67038/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.6.0.aar/74650a8206ba4f8d962bbfe55333b180/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.6.0.aar/74650a8206ba4f8d962bbfe55333b180/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/e7146477efe78fa0c742292b26e16b4d/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/e7146477efe78fa0c742292b26e16b4d/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/29321158d84a152bdc2b8b4bcb504617/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/29321158d84a152bdc2b8b4bcb504617/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/bba0e465a8cd5180b4cc06b56340d3a9/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/bba0e465a8cd5180b4cc06b56340d3a9/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/0cd491268096f52e1b291dbb7858181f/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/0cd491268096f52e1b291dbb7858181f/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.0.aar/6ed45207957cf1c612b5f35a97560bbc/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.0.aar/6ed45207957cf1c612b5f35a97560bbc/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.0.aar/3023c59049135bf80f42f7793432f466/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.0.aar/3023c59049135bf80f42f7793432f466/AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/monty/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a880e1c53f6bcd8cc672bc0475cb482e/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/monty/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a880e1c53f6bcd8cc672bc0475cb482e/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/63d93ec86538b28e602b06e5f659f91e/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/63d93ec86538b28e602b06e5f659f91e/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/8ab54094add65726c8587dc9294db716/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/8ab54094add65726c8587dc9294db716/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/463810ff3ff8964b4b3ae84da52d19e2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/463810ff3ff8964b4b3ae84da52d19e2/AndroidManifest.xml:4:5-43
+INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml
+INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b4d89e09627c0e4c57ea05a893db750b/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml
+		INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml
+		ADDED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml
+		INJECTED from /home/monty/Desktop/ejercicios/app/src/main/AndroidManifest.xml
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/9897a8dcd188ea7de1220a3183888fc4/AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/9897a8dcd188ea7de1220a3183888fc4/AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/9897a8dcd188ea7de1220a3183888fc4/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/9897a8dcd188ea7de1220a3183888fc4/AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/9897a8dcd188ea7de1220a3183888fc4/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-common-4.28.0.aar/9897a8dcd188ea7de1220a3183888fc4/AndroidManifest.xml:33:19-68
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b4d89e09627c0e4c57ea05a893db750b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/00b5e89836bb6de326b9c4bd8387a410/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/cardview-v7-26.1.0.aar/00b5e89836bb6de326b9c4bd8387a410/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:customtabs:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/c43e3537420a76ba86d67aaf977d7d1c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:customtabs:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/customtabs-26.1.0.aar/c43e3537420a76ba86d67aaf977d7d1c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/08ec11c9e650e25a9cd701d79f0266a5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/08ec11c9e650e25a9cd701d79f0266a5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/8eb399c4a96c72837e2f7a079c6e05c9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/8eb399c4a96c72837e2f7a079c6e05c9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f96beb2c5778542f06f110ee476c109f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/f96beb2c5778542f06f110ee476c109f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f76ef626e4108fda04123644c7aa8b58/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f76ef626e4108fda04123644c7aa8b58/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e532ee25b0d31815e6584892f4063e3d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e532ee25b0d31815e6584892f4063e3d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ba5e364ecbb403250b9372116519b829/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/ba5e364ecbb403250b9372116519b829/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0478c487c3c09d59329cb2248b6dd084/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/0478c487c3c09d59329cb2248b6dd084/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/eb1816357bf0a64712ca1e984b3e6152/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/eb1816357bf0a64712ca1e984b3e6152/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b4d89e09627c0e4c57ea05a893db750b/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /home/monty/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b4d89e09627c0e4c57ea05a893db750b/AndroidManifest.xml:27:13-51
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/379db4023d4e9d273ce175aee0838a4c/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/554de06b29a410e6e1ebcbf8ddd39ea1/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/554de06b29a410e6e1ebcbf8ddd39ea1/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/379db4023d4e9d273ce175aee0838a4c/AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/379db4023d4e9d273ce175aee0838a4c/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/379db4023d4e9d273ce175aee0838a4c/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/379db4023d4e9d273ce175aee0838a4c/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/c009f174e4705388292cb25f39904605/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/c009f174e4705388292cb25f39904605/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/c009f174e4705388292cb25f39904605/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/c009f174e4705388292cb25f39904605/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/c009f174e4705388292cb25f39904605/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/c009f174e4705388292cb25f39904605/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/c009f174e4705388292cb25f39904605/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/c009f174e4705388292cb25f39904605/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/c009f174e4705388292cb25f39904605/AndroidManifest.xml:24:18-63
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/44e8342eb930c784899fc725010d800e/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/44e8342eb930c784899fc725010d800e/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/44e8342eb930c784899fc725010d800e/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/44e8342eb930c784899fc725010d800e/AndroidManifest.xml:19:19-85
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/d46175a4152e6191bf7e47759a4fd8b5/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/d46175a4152e6191bf7e47759a4fd8b5/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/d46175a4152e6191bf7e47759a4fd8b5/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.28.0] /home/monty/.gradle/caches/transforms-1/files-1.1/facebook-core-4.28.0.aar/d46175a4152e6191bf7e47759a4fd8b5/AndroidManifest.xml:40:13-70
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/554de06b29a410e6e1ebcbf8ddd39ea1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/554de06b29a410e6e1ebcbf8ddd39ea1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/554de06b29a410e6e1ebcbf8ddd39ea1/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/554de06b29a410e6e1ebcbf8ddd39ea1/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/554de06b29a410e6e1ebcbf8ddd39ea1/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/554de06b29a410e6e1ebcbf8ddd39ea1/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/88ea4444431fddccda35ee7c68d89a04/AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:23:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:25:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:25:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:25:17-71
+permission#com.pablomonteserin.ejercicios.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:25:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:25:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:27:22-76
+uses-permission#com.pablomonteserin.ejercicios.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:27:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:31:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:31:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:31:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:31:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:32:13-35:29
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.pablomonteserin.ejercicios
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:32:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:33:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:33:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:34:27-58
+category#com.pablomonteserin.ejercicios
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:34:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:40:9-44:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:40:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:40:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:41:13-43:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:41:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:42:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/8e8457bd37b8a588d20fc45a26ca8f8e/AndroidManifest.xml:42:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/e19f5171b39f2f39b197f6900103077e/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/e19f5171b39f2f39b197f6900103077e/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/e19f5171b39f2f39b197f6900103077e/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/e19f5171b39f2f39b197f6900103077e/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.6.0] /home/monty/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/e19f5171b39f2f39b197f6900103077e/AndroidManifest.xml:6:79-143
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/monty/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a880e1c53f6bcd8cc672bc0475cb482e/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/monty/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a880e1c53f6bcd8cc672bc0475cb482e/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/monty/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/a880e1c53f6bcd8cc672bc0475cb482e/AndroidManifest.xml:26:13-58

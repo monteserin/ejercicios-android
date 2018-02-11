@@ -1,0 +1,4 @@
+#Sun Nov 26 11:28:16 CET 2017
+base.0=/home/monty/Desktop/ejercicios/app/build/intermediates/transforms/dexMerger/debug/4
+path.0=classes.dex
+renamed.0=classes.dex
